@@ -28,25 +28,25 @@
 }
 
 .slide-wrapper .slide-item:nth-child(2):before{
-    background: url("https://images.unsplash.com/photo-1705096953495-8ea06879b986?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
+    background: url('https://images.unsplash.com/photo-1705096953495-8ea06879b986?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
     background-size: cover;
     background-position: center;   
 }
 
 .slide-wrapper .slide-item:nth-child(3):before{
-    background: url("https://images.unsplash.com/photo-1700853006150-05595d465c6d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
+    background: url('https://images.unsplash.com/photo-1700853006150-05595d465c6d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
     background-size: cover;
     background-position: center;   
 }
 
 .slide-wrapper .slide-item:nth-child(4):before{
-    background: url("https://images.unsplash.com/photo-1695830110251-b9d9cac2ce9d?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");  
+    background: url('https://images.unsplash.com/photo-1695830110251-b9d9cac2ce9d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  
     background-size: cover;
     background-position: center;  
 }
 
 .slide-wrapper .slide-item:nth-child(5):before{
-    background: url("https://images.unsplash.com/photo-1695748966450-3abe5c25b481?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");  
+    background: url('https://images.unsplash.com/photo-1695748966450-3abe5c25b481?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  
     background-size: cover;
     background-position: center;  
 }
@@ -59,6 +59,10 @@
     padding: 0 20px 10px;
     max-width: 1400px;
     position: relative;
+}
+
+.slide-wrapper .slide-item .slide-content > * {
+    max-width: 35%;
 }
 
 .slide-item .slide-content .slide-subtitle {
@@ -97,5 +101,18 @@
 .slide-item .slide-content .slide-button:hover {
     color: #000;
     background: #fff;
+}
+
+.slide-container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.slide-container .slide-controls {
+    position: absolute;
+    bottom: 45px;
+    z-index: 20;
 }
 
