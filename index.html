@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barriecito&family=Bebas+Neue&family=Cedarville+Cursive&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,200,0,0" />
 </head>
 <body>
     <div class="slide-container">
@@ -60,12 +61,22 @@
 
         <div class="slide-controls">
             <ul class="slide-pagination">
+                <div class="slide-indicator"></div>
                 <li class="slide-tab">Lorem ipsum dolor sit amet.</li>
                 <li class="slide-tab">Lorem ipsum dolor sit amet.</li>
                 <li class="slide-tab">Lorem ipsum dolor sit amet.</li>
                 <li class="slide-tab">Lorem ipsum dolor sit amet.</li>
                 <li class="slide-tab">Lorem ipsum dolor sit amet.</li>
             </ul>
+        </div>
+
+        <div class="slide-navigation">
+            <button id="slide-prev" class="material-symbols-rounded">
+                arrow_left_alt
+            </button>
+            <button id="slide-next" class="material-symbols-rounded">
+                arrow_right_alt
+            </button>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
